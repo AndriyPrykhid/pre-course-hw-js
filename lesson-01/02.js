@@ -9,4 +9,3 @@ if (randomNumber % 2 === 0) {
     
     четное число`)
 }
-console.log(randomNumber)
