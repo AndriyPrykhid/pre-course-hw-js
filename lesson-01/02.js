@@ -1,9 +1,9 @@
 // code
-let randomNumber = Math.floor(Math.random() * 100);
+let number1 = Math.floor(Math.random() * 100);
 
-if (randomNumber % 2 === 0) {
-    console.log(randomNumber, "четное число")
+if (number1 % 2 === 0) {
+    console.log(number1, "четное число")
 
 } else {
-    console.log(randomNumber, "нечетное число")
+    console.log(number1, "нечетное число")
 } 
