@@ -2,8 +2,8 @@
 let randomNumber = Math.floor(Math.random() * 100);
 
 if (randomNumber % 2 === 0) {
-    console.log("четное число")
+    console.log(randomNumber, "четное число")
 
 } else {
-    console.log("нечетное число")
-}
+    console.log(randomNumber, "нечетное число")
+} 
