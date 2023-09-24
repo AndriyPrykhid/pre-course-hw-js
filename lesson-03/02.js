@@ -4,7 +4,7 @@ const words = ["яблоко", "банан", "апельсин", "манго", "
 
 function searchOrange(arr) {
     if (arr.indexOf("апельсин") !== -1) {
-        return "«Ура! нашел"
+        return "Ура! нашел"
     } else {
         return "Придется поискать в другом магазине…"
     }
