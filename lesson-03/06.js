@@ -31,7 +31,11 @@ const users3 = [
     },
 ];
 
+
+
 for (let i = 0; i < users3.length; i++) {
 
-    console.log({ ...users3[i], isMarried: true })
+    users3[i].isMarried = true;
 }
+
+console.log(users3)
