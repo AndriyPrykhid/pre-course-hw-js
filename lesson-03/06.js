@@ -33,9 +33,11 @@ const users3 = [
 
 
 
-for (let i = 0; i < users3.length; i++) {
+// for (let i = 0; i < users3.length; i++) {
 
-    users3[i].isMarried = true;
-}
+//     users3[i].isMarried = true;
+// }
 
+// console.log(users3);
+users3.forEach((user) => user.isMarried = true);
 console.log(users3)
